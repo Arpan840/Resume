@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Arpan Das – Resume</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f6f6f6;
+      color: #222;
+    }
+    .container {
+      display: flex;
+      max-width: 950px;
+      background: #fff;
+      margin: 32px auto;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .sidebar {
+      background: #2f3e46;
+      color: #d5d7dc;
+      width: 270px;
+      padding: 36px 28px;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+    }
+    .sidebar h2 { 
+      margin: 0 0 12px 0; 
+      font-size: 1.1em;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: #bfa052;
+    }
+    .sidebar .info, .sidebar .skills {
+      font-size: 0.95em;
+      line-height: 1.6;
+    }
+    .sidebar .icon-label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+    .sidebar .icon-label span {
+      margin-left: 8px;
+      font-size: 1em;
+    }
+    .sidebar a {
+      color: #bfa052;
+      text-decoration: none;
+      word-break: break-all;
+    }
+    .main {
+      flex: 1;
+      padding: 38px 44px 38px 38px;
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
+    .top-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .name-title {
+      margin-bottom: 6px;
+    }
+    .name {
+      font-size: 2em;
+      letter-spacing: 1px;
+      font-weight: bold;
+      margin: 0 0 2px;
+    }
+    .role {
+      font-size: 1.12em;
+      color: #bfa052;
+      font-weight: 600;
+    }
+    .summary, .section {
+      margin-bottom: 9px;
+    }
+    .section-title {
+      font-size: 1.2em;
+      font-weight: 600;
+      border-bottom: 2px solid #cccccc;
+      color: #2f3e46;
+      display: inline-block;
+      padding-bottom: 2px;
+      margin-bottom: 8px;
+      margin-top: 0;
+    }
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+    .projects .project-title {
+      font-weight: 600;
+      color: #2f3e46;
+    }
+    .projects .tech {
+      font-size: 0.96em;
+      color: #666666;
+      font-style: italic;
+    }
+    .exp-job {
+      margin-bottom: 15px;
+    }
+    .exp-job-title {
+      font-weight: 600;
+      color: #2f3e46;
+    }
+    .exp-job-company {
+      font-style: italic;
+      color: #bfa052;
+    }
+    @media (max-width: 800px) {
+      .container {
+        flex-direction: column;
+        max-width: 98vw;
+      }
+      .sidebar, .main {
+        width: 100%;
+        max-width: 100vw;
+      }
+      .sidebar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 18px;
+        padding: 20px 12px;
+      }
+      .main {
+        padding: 22px 10px 20px 18px;
+      }
+    }
+    @media (max-width: 600px) {
+      .top-header {
+        flex-direction: column;
+        gap: 2px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+        <section>
+          <h2>CONTACT</h2>
+          <div class="info">
+            <div class="icon-label">📞 <span>+91-8195825457</span></div>
+            <div class="icon-label">📧 <span>arpandas020498@gmail.com</span></div>
+            <div class="icon-label">🌐 <span style="font-size:0.98em;"><a href="https://my-port-folio-flax.vercel.app/" target="_blank">Portfolio</a></span></div>
+            <div class="icon-label">📍 <span>Chandigarh, India</span></div>
+            <div class="icon-label">💼 <span><a href="https://www.linkedin.com/in/arpan-das-51417a205/" target="_blank">LinkedIn</a></span></div>
+            <div class="icon-label">💻 <span><a href="https://github.com/Arpan840" target="_blank">GitHub</a></span></div>
+          </div>
+        </section>
+        <section>
+          <h2>SKILLS</h2>
+          <div class="skills">
+            <b>Frontend:</b><br>
+            React.js, Next.js, Angular, TypeScript, JavaScript, HTML5, CSS3, MUI, Bootstrap<br><br>
+            <b>Backend:</b><br>
+            Node.js, Express.js, TypeScript<br><br>
+            <b>Databases:</b><br>
+            PostgreSQL, MongoDB, MySQL<br><br>
+            <b>Other:</b><br>
+            TypeORM, Knex.js, Git, GitHub, GitLab, Railway, AWS
+          </div>
+        </section>
+        <section>
+          <h2>EDUCATION</h2>
+          <div class="skills">
+            Master of Computer Applications (MCA)<br>
+            Panjab University, Chandigarh<br>
+            2021–2023
+          </div>
+        </section>
+        <section>
+          <h2>PERSONAL</h2>
+          <div class="skills">
+            Nationality: Indian
+          </div>
+        </section>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <header class="top-header">
+        <div class="name-title">
+          <div class="name">Arpan Das</div>
+          <div class="role">Full Stack Software Engineer</div>
+        </div>
+      </header>
+      <section class="summary">
+        <div class="section-title">Summary</div>
+        <div>
+          Full Stack Software Engineer with <b>2.10 years</b> of experience building scalable, performant web applications using <b>React.js, Angular, Node.js, Express.js, PostgreSQL, and MongoDB</b>. Proven ability to design RESTful APIs, manage complex data systems, and deliver production-ready applications. Notably contributed to Play Store-released apps, including <b>House of Peace</b> with over <b>5,000+ active users</b>, and adept at developing business-critical solutions in agile teams. Passionate about clean code, TypeScript, and robust full-stack architectures.
+        </div>
+      </section>
+
+      <section>
+        <div class="section-title">Key Achievements</div>
+        <ul>
+          <li>Developed REST APIs for apps with <b>5,000+ active users</b> (two Play Store launches)</li>
+          <li>Implemented multi-tenant admin dashboards in Angular</li>
+          <li>Created secure authentication (JWT, Bcrypt.js) and scalable backends</li>
+          <li>Optimized PostgreSQL queries (up to 30% faster DB performance)</li>
+        </ul>
+      </section>
+<section class="projects">
+  <div class="section-title">Projects</div>
+  <ul>
+    <!-- TOP PRIORITY, REAL-WORLD PROJECTS -->
+    <li>
+      <span class="project-title">House of Peace:</span> Audio streaming backend + admin panel<br>
+      <span class="tech">Stack: Node.js, Angular, PostgreSQL &nbsp;|&nbsp; Play Store, 5,000+ users</span>
+    </li>
+    <li>
+      <span class="project-title">Court Report:</span> Real-time tennis analytics and stats<br>
+      <span class="tech">Stack: Node.js, React.js, PostgreSQL &nbsp;|&nbsp; Play Store published</span>
+    </li>
+    <li>
+      <span class="project-title">Product Synchronizer:</span> Product management platform with JWT auth, rate limiting, automated syncs, notifications.<br>
+      <span class="tech">Stack: React.js (Next.js), Node.js, MongoDB &nbsp;|&nbsp; Frontend + Backend</span>
+    </li>
+    <li>
+      <span class="project-title">Assistent Up:</span> Payroll and HR management system<br>
+      <span class="tech">Stack: Node.js, Angular, PostgreSQL</span>
+    </li>
+    <!-- ADDITIONAL REACT.JS & PORTFOLIO PROJECTS -->
+    <li>
+      <span class="project-title">Grapevine Paid Survey App:</span> Scalable survey platform with real-time updates, rich analytics, and team collaboration.<br>
+      <span class="tech">Stack: React.js, TypeScript &nbsp;|&nbsp; Live: <a href="https://survey-app.npit.at/#/" style="color:#bfa052;" target="_blank">survey-app.npit.at</a></span>
+    </li>
+    <li>
+      <span class="project-title">360 Admin Panel:</span> Feature-rich dashboard with advanced component design, API integration, and multi-role access.<br>
+      <span class="tech">Stack: React.js, MUI, TypeScript &nbsp;|&nbsp; Live: <a href="https://st.360linked.com/#/auth/login" style="color:#bfa052;" target="_blank">360linked.com</a></span>
+    </li>
+    <li>
+      <span class="project-title">Dating App Admin Panel:</span> Admin dashboard for user management, moderation, and real-time insights.<br>
+      <span class="tech">Stack: React.js, TypeScript &nbsp;|&nbsp; Live: <a href="http://dating-admin.npit.xyz/#/auth/login?next=/" style="color:#bfa052;" target="_blank">dating-admin.npit.xyz</a></span>
+    </li>
+    <li>
+      <span class="project-title">Admin Analytics Dashboard:</span> Data visualization and analytics dashboard supporting complex filtering and roles.<br>
+      <span class="tech">Stack: React.js, Chart.js, APIs &nbsp;|&nbsp; Portfolio/Fortech Products</span>
+    </li>
+    <li>
+      <span class="project-title">Name Game:</span> Dynamic multiplayer game with live updates & custom React hooks.<br>
+      <span class="tech">Stack: React.js &nbsp;|&nbsp; Live: <a href="https://namegame-web.npit.pro/" style="color:#bfa052;" target="_blank">namegame-web.npit.pro</a></span>
+    </li>
+    <li>
+      <span class="project-title">Expense Tracker:</span> Tracked daily expenses with charting, filters, and local persistence.<br>
+      <span class="tech">Stack: React.js, Context API, Chart.js</span>
+    </li>
+    <!-- Add or remove as needed, but keep most high-impact projects at the top -->
+  </ul>
+</section>
+
+         <section>
+        <div class="section-title">Experience</div>
+        
+        <div class="exp-job">
+          <span class="exp-job-title">Full Stack Software Engineer</span> <span class="exp-job-company">@ Hoop Konsulting</span><br>
+          <span style="font-size:0.96em;">Mar 2024 – Present, Chandigarh</span>
+          <ul>
+            <li>Developed REST APIs (Node.js/Express.js/TypeScript)</li>
+            <li>Built Angular admin dashboards, multi-tenant architecture</li>
+            <li>Contributed to House of Peace, Court Report, Assistent Up</li>
+          </ul>
+        </div>
+        <div class="exp-job">
+          <span class="exp-job-title">React.js Developer</span> <span class="exp-job-company">@ NextPage IT Solutions</span><br>
+          <span style="font-size:0.96em;">Oct 2023 – Feb 2024, Chandigarh</span>
+          <ul>
+            <li>Built performant UI with React.js/TypeScript</li>
+            <li>Enhanced UX and integrated backend APIs</li>
+            <li>Developed interactive survey and admin apps</li>
+          </ul>
+        </div>
+        <div class="exp-job">
+          <span class="exp-job-title">Full Stack Developer</span> <span class="exp-job-company">@ Klythe Private Limited</span><br>
+          <span style="font-size:0.96em;">Mar 2022 – Mar 2023, Chandigarh</span>
+          <ul>
+            <li>Built product management system (React.js/Node.js/MongoDB)</li>
+            <li>Implemented JWT auth, Bcrypt.js, Cron jobs, Nodemailer</li>
+            <li>Developed inventory, reporting, multi-role access modules</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
