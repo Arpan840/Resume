@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Arpan Das – Resume</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      background: #f9f9f9;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #181818;
+    }
+    .resume-box {
+      max-width: 820px;
+      margin: 32px auto;
+      padding: 46px 38px 38px 38px;
+      background: #fff;
+      box-shadow: 0 4px 28px rgba(0,0,0,0.11);
+      border-radius: 12px;
+    }
+    .top-name {
+      font-size: 2.2em;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 6px;
+      text-align: center;
+    }
+    .top-contacts {
+      font-size: 1em;
+      margin-bottom: 18px;
+      line-height: 1.7;
+      color: #353535;
+      word-break: break-all;
+      display: flex;
+      justify-content: center;
+    }
+    .divider {
+      border: none;
+      border-top: 1.5px solid #ebebeb;
+      margin: 20px 0 18px 0;
+    }
+
+    /* Dual Columns for summary/skills etc */
+    .row {
+      display: flex;
+      gap: 44px;
+      flex-wrap: wrap;
+    }
+    .col-half {
+      flex: 1 1 260px;
+      min-width: 220px;
+    }
+
+    /* Section Styles */
+    .section-title {
+      font-size: 1.15em;
+      font-weight: 600;
+      margin: 26px 0 7px 0;
+      letter-spacing: 1.2px;
+      border-bottom: 1px solid #e7e7e7;
+      padding-bottom: 2px;
+      text-transform: uppercase;
+    }
+    .section-title:first-child {
+      margin-top: 0;
+    }
+    .resume-section {
+      margin-bottom: 18px;
+    }
+    .resume-section ul {
+      margin: 7px 0 0 18px;
+      padding: 0;
+      list-style: disc;
+      color: #222;
+      font-size: 1em;
+    }
+    li {
+      margin-bottom: 4px;
+      line-height: 1.6;
+    }
+    .right-details, .exp-title {
+      margin-bottom: 6px;
+    }
+    .exp-title {
+      font-weight: bold;
+    }
+    .exp-company {
+      font-style: italic;
+      color: #1c1c1c;
+    }
+    .exp-loc {
+      color: #888;
+      margin-left: 5px;
+      font-size: .97em;
+    }
+    .dates {
+      color: #666;
+      float: right;
+      font-size: .99em;
+      margin-left: 24px;
+      font-weight: normal;
+    }
+    /* Print/Responsive */
+    @media (max-width:600px) {
+      .resume-box {
+        padding: 14px 2vw;
+      }
+      .row {
+        flex-direction: column;
+        gap: 0;
+      }
+    }
+    @media print {
+      body, .resume-box { background: #fff !important; box-shadow: none !important;}
+    }
+  </style>
+</head>
+<body>
+  <div class="resume-box">
+    <div class="top-name">Arpan Das</div>
+    <div class="top-contacts">
+  +91-8195825457 &nbsp; | &nbsp; arpandas020498@gmail.com &nbsp; | &nbsp;
+  <a href="https://my-port-folio-flax.vercel.app/" target="_blank" rel="noopener noreferrer">Portfolio</a> &nbsp; | &nbsp;
+  <a href="https://github.com/arpan840" target="_blank" rel="noopener noreferrer">GitHub</a> &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/arpan-das-51417a205/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+</div>
+
+    <hr class="divider" />
+
+    <!-- Summary & Skills side-by-side -->
+    <div class="row">
+      <div class="col-half">
+        <div class="section-title">Summary</div>
+        <div>
+          Full Stack Software Engineer with 2.10 years of experience building scalable, high-performance web applications using React.js, Angular, Node.js, Express.js, PostgreSQL, and MongoDB.<br>
+          Proven ability to design RESTful APIs, manage complex data, and deliver production-ready applications. Notably contributed to Play Store-released apps including House of Peace (5,000+ active users). Passionate about clean code, TypeScript, and robust full-stack architecture.
+        </div>
+      </div>
+      <div class="col-half">
+        <div class="section-title">Skills</div>
+        <ul>
+          <li>React.js, Next.js, Angular, TypeScript, JavaScript</li>
+          <li>Node.js, Express.js, REST API, JWT, Bcrypt.js</li>
+          <li>PostgreSQL, MongoDB, MySQL</li>
+          <li>TypeORM, Knex.js, AWS, Git, GitHub</li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- EXPERIENCE -->
+    <div class="resume-section">
+      <div class="section-title">PROFESSIONAL EXPERIENCE</div>
+      <div class="exp-title">Full Stack Software Engineer <span class="exp-company">@ Hoop Konsulting</span> <span class="dates">Mar 2024 – Present</span></div>
+      <div class="exp-loc">Chandigarh, India</div>
+      <ul>
+        <li>Developed REST APIs (Node.js/Express.js/TypeScript) and built Angular admin dashboards, multi-tenant architecture</li>
+        <li>Contributed to House of Peace, Court Report, Assistent Up</li>
+      </ul>
+      <div class="exp-title">React.js Developer <span class="exp-company">@ NextPage IT Solutions</span> <span class="dates">Oct 2023 – Feb 2024</span></div>
+      <div class="exp-loc">Chandigarh, India</div>
+      <ul>
+        <li>Built performant UI with React.js/TypeScript, enhanced UX and integrated backend APIs</li>
+        <li>Developed interactive survey and admin apps</li>
+      </ul>
+      <div class="exp-title">Full Stack Developer <span class="exp-company">@ Klythe Private Limited</span> <span class="dates">Mar 2022 – Mar 2023</span></div>
+      <div class="exp-loc">Chandigarh, India</div>
+      <ul>
+        <li>Built product management system (React.js/Node.js/MongoDB)</li>
+        <li>Implemented JWT auth, Bcrypt.js, Cron jobs, Nodemailer</li>
+        <li>Developed inventory, reporting, multi-role access modules</li>
+      </ul>
+    </div>
+
+    <!-- PROJECTS -->
+    <div class="resume-section">
+      <div class="section-title">PROJECTS</div>
+      <ul>
+        <li>
+          <strong>House of Peace:</strong> Audio streaming backend + admin panel.<br>
+          <em>Node.js, Angular, PostgreSQL | Play Store, 5,000+ users</em>
+        </li>
+        <li>
+          <strong>Court Report:</strong> Real-time tennis analytics and stats.<br>
+          <em>Node.js, React.js, PostgreSQL | Play Store published</em>
+        </li>
+        <li>
+          <strong>Product Synchronizer:</strong> Product management platform with JWT auth, rate limiting, syncs.<br>
+          <em>React.js (Next.js), Node.js, MongoDB</em>
+        </li>
+        <li>
+          <strong>Assistent Up:</strong> Payroll and HR management system.<br>
+          <em>Node.js, Angular, PostgreSQL</em>
+        </li>
+        <li>
+          <strong>Grapevine Paid Survey App:</strong> Real-time updates, rich analytics, team collab.<br>
+          <em>React.js, TypeScript | <a href="https://survey-app.npit.at/" target="_blank" rel="noopener">survey-app.npit.at</a></em>
+        </li>
+        <li>
+          <strong>360 Admin Panel:</strong> Dashboard with API integration, multi-role access.<br>
+          <em>React.js, MUI, TypeScript | <a href="https://360linked.com/" target="_blank" rel="noopener">360linked.com</a></em>
+        </li>
+        <li>
+          <strong>Dating App Admin Panel:</strong> User management, moderation, insights.<br>
+          <em>React.js, TypeScript | <a href="http://dating-admin.npit.xyz/" target="_blank" rel="noopener">dating-admin.npit.xyz</a></em>
+        </li>
+        <li>
+          <strong>Admin Analytics Dashboard:</strong> Data viz dashboard, complex filtering, roles.<br>
+          <em>React.js, Chart.js, APIs</em>
+        </li>
+        <li>
+          <strong>Name Game:</strong> Multiplayer game with live updates & custom hooks.<br>
+          <em>React.js | <a href="https://namegame-web.npit.pro/" target="_blank" rel="noopener">namegame-web.npit.pro</a></em>
+        </li>
+        <li>
+          <strong>Expense Tracker:</strong> Charts, filters, local persistence.<br>
+          <em>React.js, Context API, Chart.js</em>
+        </li>
+      </ul>
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="resume-section">
+      <div class="section-title">EDUCATION</div>
+      <div>
+        <strong>Master of Computer Applications (MCA)</strong><br>
+        Panjab University, Chandigarh<br>
+        2021 – 2023
+      </div>
+    </div>
+    
+    <!-- PERSONAL INFO -->
+    <div class="resume-section">
+      <div class="section-title">PERSONAL INFO</div>
+      <div>Nationality: Indian</div>
+    </div>
+  </div>
+</body>
+</html>
